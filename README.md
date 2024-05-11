@@ -9,50 +9,58 @@
  
 ## Brief about Tools used:
  
-# To achieve this we have used cucumber frameworks, automated with Selenium and Java, along with Extent Report.
+**To achieve this we have used cucumber frameworks, automated with Selenium and Java, along with Extent Report.**
+
  
 # Frameworks used:
- 
-** * Cucumber **<br><br>
-** * TestNG **<br><br>
-** * Maven **<br><br>
-** * Selenium Grid **<br><br>
+
+* **Cucumber**
+* **TestNG**
+* **Maven**
+* **Selenium Grid**
+
  
 # Folder Structure
-![Folder Structure](C:\Users\2327239\eclipse-workspace\HackProject\OuputImages\folder1.png)
-![Folder Structure](C:\Users\2327239\eclipse-workspace\HackProject\OuputImages\folder2.png)
-![Folder Structure](C:\Users\2327239\eclipse-workspace\HackProject\OuputImages\folder3.png)
+![folder1](https://github.com/sreejasaha19/Identify-New-Bikes/assets/105979237/9295f403-a5ca-48a8-8270-f360ca0202f4)
+![folder2](https://github.com/sreejasaha19/Identify-New-Bikes/assets/105979237/bf4e5a86-bb41-431e-a2b5-c88da55e8d3f)
+![folder3](https://github.com/sreejasaha19/Identify-New-Bikes/assets/105979237/fa6a6fa7-2621-4ce6-90da-78999ccfa533)
+
 
 
 ## Cucumber
  
 ### Console Output
-![Cucumber console output](C:\Users\2327239\eclipse-workspace\HackProject\OuputImages\cucumber.png)
+![cucumber](https://github.com/sreejasaha19/Identify-New-Bikes/assets/105979237/fd641e72-a528-41a6-b866-23066d43e956)
+
  
 ## TestNG
  
 ### Console Output
-![TestNG console output](C:\Users\2327239\eclipse-workspace\HackProject\OuputImages\TestNG.png)
+![TestNG](https://github.com/sreejasaha19/Identify-New-Bikes/assets/105979237/be921d8c-072f-416b-802c-48541d4df261)
+
  
 ## Maven
  
 ### Maven Build Console Output in Eclipse
  
-![Maven console output](C:\Users\2327239\eclipse-workspace\HackProject\OuputImages\MavenCmd.png)
+![MavenCmd](https://github.com/sreejasaha19/Identify-New-Bikes/assets/105979237/0fcb1a8c-da3e-48bb-90d4-7a1093946392)
+
  
  
 ### Maven Build Console Output in Cmd
  
-![Maven console output](C:\Users\2327239\eclipse-workspace\HackProject\OuputImages\MavenEclipse.png)
+![MavenEclipse](https://github.com/sreejasaha19/Identify-New-Bikes/assets/105979237/2be72019-2c06-41ee-a13c-251b20badb9b)
+
  
  
 ## Selenium Grid
  
 ### Selenium Grid Standalone
  
-![Grid console output](C:\Users\2327239\eclipse-workspace\HackProject\OuputImages\Grid.png)
+![Grid](https://github.com/sreejasaha19/Identify-New-Bikes/assets/105979237/a79c6e1a-6cd5-4b4f-afde-dd38a32b31b7)
+
  
 ### Selenium Grid Console Output
- 
-![Grid console output](C:\Users\2327239\eclipse-workspace\HackProject\OuputImages\GridConsole.png)
-![Grid console output](C:\Users\2327239\eclipse-workspace\HackProject\OuputImages\GridConsole1.png)
+ ![GridConsole](https://github.com/sreejasaha19/Identify-New-Bikes/assets/105979237/c4b694f7-d961-48bb-837e-6153ab990ef9)
+![GridConsole1](https://github.com/sreejasaha19/Identify-New-Bikes/assets/105979237/4f342196-37d2-4cb1-8f3e-7e2508fa88b2)
+
