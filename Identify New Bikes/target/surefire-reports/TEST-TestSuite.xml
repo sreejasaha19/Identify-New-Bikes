@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="74.176" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Sreeja Saha\Downloads\Identify New Bikes\Identify New Bikes\Identify New Bikes\target\test-classes;C:\Users\Sreeja Saha\Downloads\Identify New Bikes\Identify New Bikes\Identify New Bikes\target\classes;C:\Users\Sreeja Saha\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\Sreeja Saha\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Sreeja Saha\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Sreeja Saha\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Sreeja Saha\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\Sreeja Saha\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\Sreeja Saha\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Sreeja Saha\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\Sreeja Saha\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\Sreeja Saha\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\Sreeja Saha\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\Sreeja Saha\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\Sreeja Saha\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\Sreeja Saha\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\Sreeja Saha\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\Sreeja Saha\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\Sreeja Saha\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\Sreeja Saha\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\Sreeja Saha\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\Sreeja Saha\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\Sreeja Saha\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\Sreeja Saha\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Sreeja Saha\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Sreeja Saha\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\Sreeja Saha\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\Sreeja Saha\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Sreeja Saha\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Sreeja Saha\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Sreeja Saha\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\Sreeja Saha\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\Sreeja Saha\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\Sreeja Saha\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\Sreeja Saha\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Sreeja Saha\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\Sreeja Saha\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Sreeja Saha\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Sreeja Saha\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Sreeja Saha\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Sreeja Saha\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Sreeja Saha\.m2\repository\io\cucumber\cucumber-java\7.16.1\cucumber-java-7.16.1.jar;C:\Users\Sreeja Saha\.m2\repository\io\cucumber\cucumber-core\7.16.1\cucumber-core-7.16.1.jar;C:\Users\Sreeja Saha\.m2\repository\io\cucumber\cucumber-gherkin\7.16.1\cucumber-gherkin-7.16.1.jar;C:\Users\Sreeja Saha\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.16.1\cucumber-gherkin-messages-7.16.1.jar;C:\Users\Sreeja Saha\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\Sreeja Saha\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\Sreeja Saha\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\Sreeja Saha\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\Sreeja Saha\.m2\repository\io\cucumber\datatable\7.16.1\datatable-7.16.1.jar;C:\Users\Sreeja Saha\.m2\repository\io\cucumber\cucumber-plugin\7.16.1\cucumber-plugin-7.16.1.jar;C:\Users\Sreeja Saha\.m2\repository\io\cucumber\docstring\7.16.1\docstring-7.16.1.jar;C:\Users\Sreeja Saha\.m2\repository\io\cucumber\html-formatter\21.3.0\html-formatter-21.3.0.jar;C:\Users\Sreeja Saha\.m2\repository\io\cucumber\junit-xml-formatter\0.3.0\junit-xml-formatter-0.3.0.jar;C:\Users\Sreeja Saha\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Sreeja Saha\.m2\repository\io\cucumber\cucumber-junit\7.16.1\cucumber-junit-7.16.1.jar;C:\Users\Sreeja Saha\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Sreeja Saha\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Sreeja Saha\.m2\repository\io\cucumber\cucumber-testng\7.16.1\cucumber-testng-7.16.1.jar;C:\Users\Sreeja Saha\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\Sreeja Saha\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\Sreeja Saha\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\Sreeja Saha\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\Sreeja Saha\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\Sreeja Saha\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\Sreeja Saha\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\Sreeja Saha\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\Sreeja Saha\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\Sreeja Saha\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\Sreeja Saha\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\Sreeja Saha\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\Sreeja Saha\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\Sreeja Saha\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\Sreeja Saha\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\Sreeja Saha\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\Sreeja Saha\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\Sreeja Saha\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Sreeja Saha\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Sreeja Saha\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Sreeja Saha\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Sreeja Saha\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\Sreeja Saha\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\Sreeja Saha\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.1.v20240426-1149\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Sreeja Saha\AppData\Local\Temp\surefire91794627353613786\surefirebooter-20240511061202472_3.jar C:\Users\Sreeja Saha\AppData\Local\Temp\surefire91794627353613786 2024-05-11T06-12-02_278-jvmRun1 surefire-20240511061202472_1tmp surefire_0-20240511061202472_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Sreeja Saha\Downloads\Identify New Bikes\Identify New Bikes\Identify New Bikes\target\test-classes;C:\Users\Sreeja Saha\Downloads\Identify New Bikes\Identify New Bikes\Identify New Bikes\target\classes;C:\Users\Sreeja Saha\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\Sreeja Saha\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Sreeja Saha\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Sreeja Saha\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Sreeja Saha\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\Sreeja Saha\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\Sreeja Saha\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Sreeja Saha\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\Sreeja Saha\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\Sreeja Saha\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\Sreeja Saha\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\Sreeja Saha\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\Sreeja Saha\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\Sreeja Saha\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\Sreeja Saha\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\Sreeja Saha\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\Sreeja Saha\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\Sreeja Saha\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\Sreeja Saha\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\Sreeja Saha\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\Sreeja Saha\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\Sreeja Saha\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Sreeja Saha\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Sreeja Saha\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\Sreeja Saha\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\Sreeja Saha\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Sreeja Saha\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Sreeja Saha\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Sreeja Saha\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\Sreeja Saha\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\Sreeja Saha\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\Sreeja Saha\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\Sreeja Saha\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Sreeja Saha\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\Sreeja Saha\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Sreeja Saha\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Sreeja Saha\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Sreeja Saha\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Sreeja Saha\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Sreeja Saha\.m2\repository\io\cucumber\cucumber-java\7.16.1\cucumber-java-7.16.1.jar;C:\Users\Sreeja Saha\.m2\repository\io\cucumber\cucumber-core\7.16.1\cucumber-core-7.16.1.jar;C:\Users\Sreeja Saha\.m2\repository\io\cucumber\cucumber-gherkin\7.16.1\cucumber-gherkin-7.16.1.jar;C:\Users\Sreeja Saha\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.16.1\cucumber-gherkin-messages-7.16.1.jar;C:\Users\Sreeja Saha\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\Sreeja Saha\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\Sreeja Saha\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\Sreeja Saha\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\Sreeja Saha\.m2\repository\io\cucumber\datatable\7.16.1\datatable-7.16.1.jar;C:\Users\Sreeja Saha\.m2\repository\io\cucumber\cucumber-plugin\7.16.1\cucumber-plugin-7.16.1.jar;C:\Users\Sreeja Saha\.m2\repository\io\cucumber\docstring\7.16.1\docstring-7.16.1.jar;C:\Users\Sreeja Saha\.m2\repository\io\cucumber\html-formatter\21.3.0\html-formatter-21.3.0.jar;C:\Users\Sreeja Saha\.m2\repository\io\cucumber\junit-xml-formatter\0.3.0\junit-xml-formatter-0.3.0.jar;C:\Users\Sreeja Saha\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Sreeja Saha\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Sreeja Saha\.m2\repository\io\cucumber\cucumber-junit\7.16.1\cucumber-junit-7.16.1.jar;C:\Users\Sreeja Saha\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Sreeja Saha\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Sreeja Saha\.m2\repository\io\cucumber\cucumber-testng\7.16.1\cucumber-testng-7.16.1.jar;C:\Users\Sreeja Saha\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\Sreeja Saha\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\Sreeja Saha\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\Sreeja Saha\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\Sreeja Saha\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\Sreeja Saha\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\Sreeja Saha\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\Sreeja Saha\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\Sreeja Saha\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\Sreeja Saha\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\Sreeja Saha\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\Sreeja Saha\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\Sreeja Saha\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\Sreeja Saha\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\Sreeja Saha\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\Sreeja Saha\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\Sreeja Saha\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\Sreeja Saha\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Sreeja Saha\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Sreeja Saha\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Sreeja Saha\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Sreeja Saha\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\Sreeja Saha\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Sreeja Saha"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\Users\Sreeja Saha\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.1.v20240426-1149\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Sreeja Saha\Downloads\Identify New Bikes\Identify New Bikes\Identify New Bikes"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Sreeja Saha\AppData\Local\Temp\surefire91794627353613786\surefirebooter-20240511061202472_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="22.0.1+8"/>
+    <property name="user.name" value="Sreeja Saha"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-22.0.1+8"/>
+    <property name="localRepository" value="C:\Users\Sreeja Saha\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\SREEJA~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="22.0.1"/>
+    <property name="user.dir" value="C:\Users\Sreeja Saha\Downloads\Identify New Bikes\Identify New Bikes\Identify New Bikes"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Sreeja Saha\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.1.v20240426-1149\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/Sreeja Saha/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.1.v20240426-1149/jre/bin/server;C:/Users/Sreeja Saha/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.1.v20240426-1149/jre/bin;C:/Users/SREEJA~1/AppData/Local/Temp/eoi5DD.tmp//plugins/org.eclipse.justj.openjdk.hotspot.jre.minimal.stripped.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/SREEJA~1/AppData/Local/Temp/eoi5DD.tmp//plugins/org.eclipse.justj.openjdk.hotspot.jre.minimal.stripped.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\runtime\win64;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\bin;C:\Program Files\MATLAB\MATLAB Production Server\R2015a\polyspace\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;;C:\Program Files\HP\HP One Agent;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Sreeja Saha\anaconda3;C:\Users\Sreeja Saha\anaconda3\Library\mingw-w64\bin;C:\Users\Sreeja Saha\anaconda3\Library\usr\bin;C:\Users\Sreeja Saha\anaconda3\Library\bin;C:\Users\Sreeja Saha\anaconda3\Scripts;C:\Users\Sreeja Saha\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Sreeja Saha\AppData\Local\Programs\Python\Python310\;C:\Users\Sreeja Saha\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1\bin;;C:\Program Files\sfdx\bin;C:\Users\Sreeja Saha\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Sreeja Saha\AppData\Local\GitHubDesktop\bin;C:\Users\Sreeja Saha\AppData\Roaming\npm;C:\Users\Sreeja Saha\Downloads;;C:\Users\Sreeja Saha\Downloads;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="22.0.1+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;View upcoming Honda bikes under 4Lac on ZigWheels&quot;, &quot;Display upcoming Honda bikes under 4Lac in India on ZigWheels&quot;](1)" classname="testRunner.TestRunner" time="17.988">
+    <system-out><![CDATA[
+@regression
+Scenario: View upcoming Honda bikes under 4Lac on ZigWheels                             # Features/UpcomingHondaBikes.feature:7
+  Given the user is on the ZigWheels website                                            # stepDefinitions.UpcomingHondaBikes.the_user_is_on_the_zig_wheels_website()
+
+    Embedding ViewupcomingHondabikesunder4LaconZigWheels_Success [image/png 613810 bytes]
+
+  When the user hovers over the New Bikes section                                       # stepDefinitions.UpcomingHondaBikes.the_user_hovers_over_the_section()
+
+    Embedding ViewupcomingHondabikesunder4LaconZigWheels_Success [image/png 496323 bytes]
+
+  And the user selects Upcoming Bikes from the dropdown                                 # stepDefinitions.UpcomingHondaBikes.the_user_selects_upcoming_bikes_from_the_dropdown()
+
+    Embedding ViewupcomingHondabikesunder4LaconZigWheels_Success [image/png 302603 bytes]
+
+  And the user sets the filter Manufacturer to Honda                                    # stepDefinitions.UpcomingHondaBikes.the_user_sets_the_filter_manufacturer_to_honda()
+
+    Embedding ViewupcomingHondabikesunder4LaconZigWheels_Success [image/png 146799 bytes]
+
+  And the user clicks on the View More button                                           # stepDefinitions.UpcomingHondaBikes.the_user_clicks_on_the_view_more_button()
+
+    Embedding ViewupcomingHondabikesunder4LaconZigWheels_Success [image/png 338589 bytes]
+
+[Honda PCX160, Rs. 1.20 Lakh, Expected Launch : Jun 2024]
+[Honda Activa Electric, Rs. 1.10 Lakh, Expected Launch : Jun 2024]
+[Honda Activa 7G, Rs. 79,000, Expected Launch : Oct 2024]
+[Honda CB350 Cruiser, Rs. 2.30 Lakh, Expected Launch : Nov 2024]
+[Honda Forza 350, Rs. 3.70 Lakh, Expected Launch : Unrevealed]
+[Honda CBR150R, Rs. 1.70 Lakh, Expected Launch : Unrevealed]
+[Honda Rebel 300, Rs. 2.30 Lakh, Expected Launch : Unrevealed]
+[Honda CRF300L, Rs. 3.30 Lakh, Expected Launch Date : 31 Dec 2050]
+  Then the user should filter out the displayed Honda bikes with a price less than 4Lac # stepDefinitions.UpcomingHondaBikes.the_user_should_filter_out_the_displayed_honda_bikes_with_a_price_less_than_4lac()
+
+    Embedding ViewupcomingHondabikesunder4LaconZigWheels_Success [image/png 234126 bytes]
+
+Bike Name List: [Honda PCX160, Honda Activa Electric, Honda Activa 7G, Honda CB350 Cruiser, Honda Forza 350, Honda CBR150R, Honda Rebel 300, Honda CRF300L]
+Price List: [Rs. 1.20 Lakh, Rs. 1.10 Lakh, Rs. 79,000, Rs. 2.30 Lakh, Rs. 3.70 Lakh, Rs. 1.70 Lakh, Rs. 2.30 Lakh, Rs. 3.30 Lakh]
+Expected Launch Date List: [Jun 2024, Jun 2024, Oct 2024, Nov 2024, Unrevealed, Unrevealed, Unrevealed, 31 Dec 2050]
+  And for each bike priced under 4Lac should be added to their respective lists         # stepDefinitions.UpcomingHondaBikes.for_each_bike_priced_under_4lac_should_be_added_to_their_respective_lists()
+
+    Embedding ViewupcomingHondabikesunder4LaconZigWheels_Success [image/png 238616 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+May 11, 2024 6:12:06 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 124
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;View popular used car models in Chennai&quot;, &quot;Display popular used car models in Chennai&quot;](2)" classname="testRunner.TestRunner" time="33.953">
+    <system-out><![CDATA[
+@sanity
+Scenario: View popular used car models in Chennai                # Features/UsedCars.feature:7
+  Given the user has the car sales website open in their browser # stepDefinitions.UsedCars.the_user_has_the_car_sales_website_open_in_their_browser()
+
+    Embedding ViewpopularusedcarmodelsinChennai_Success [image/png 613810 bytes]
+
+  When the user hovers over the Used Cars link                   # stepDefinitions.UsedCars.the_user_hovers_over_the_used_cars_link()
+
+    Embedding ViewpopularusedcarmodelsinChennai_Success [image/png 535324 bytes]
+
+  And the user selects Chennai from the dropdown                 # stepDefinitions.UsedCars.the_user_selects_chennai_from_the_dropdown()
+
+    Embedding ViewpopularusedcarmodelsinChennai_Success [image/png 228422 bytes]
+
+  And the user scrolls down to the list of popular models        # stepDefinitions.UsedCars.the_user_scrolls_down_to_the_list_of_popular_models()
+
+    Embedding ViewpopularusedcarmodelsinChennai_Success [image/png 433053 bytes]
+
+230
+Maruti Swift 2014-2021 Maruti Swift VXI Optional
+Honda City 4th Generation Honda City SV MT
+Maruti Swift Dzire Maruti Swift Dzire VXI
+Honda City 2015-2017 Honda City i VTEC V
+Honda City 2014-2015 Honda City i DTEC VX
+Maruti Swift 2014-2021 Maruti Swift VXI Optional
+Maruti Swift Maruti Swift ZXI
+Toyota Innova 2004-2011 Toyota Innova 2.5 G (Diesel) 8 Seater BS III
+Maruti Swift Maruti Swift ZXI
+Toyota Innova Toyota Innova 2.5 G (Diesel) 7 Seater
+Toyota Innova 2004-2011 Toyota Innova 2.5 G (Diesel) 7 Seater BS III
+Maruti Swift Maruti Swift ZXI Plus
+Maruti Swift Maruti Swift ZXI
+Honda City 4th Generation Honda City V MT
+Maruti Swift 2014-2021 Maruti Swift ZXI BSIV
+Maruti Swift Dzire Maruti Swift Dzire VXI
+Maruti Swift 2018 Maruti Swift VXI
+Honda City 4th Generation Honda City V CVT
+Honda City 2008-2011 Honda City 1.5 V MT Exclusive
+Honda City 2014-2015 Honda City i VTEC CVT SV
+Maruti Swift Maruti Swift ZXI AMT
+Maruti Swift Maruti Swift VXI
+Honda City 2011-2013 Honda City 1.5 S AT
+Maruti Swift 2010-2014 Maruti Swift ZDi
+Honda City 4th Generation Honda City i-VTEC S
+Honda City 2015-2017 Honda City i VTEC V
+Honda City 2011-2013 Honda City S
+Maruti Swift Dzire 2015-2017 Maruti Swift Dzire AMT ZDI
+Maruti Swift Maruti Swift VXI
+Honda City 2015-2017 Honda City i VTEC CVT VX
+Honda City 2015-2017 Honda City i VTEC VX
+Honda City 2015-2017 Honda City i VTEC CVT VX
+Honda City 2014-2015 Honda City i VTEC V
+Honda City 2015-2017 Honda City i VTEC V
+Maruti Swift Dzire Maruti Swift Dzire VXI
+Maruti Swift Maruti Swift VXI
+Honda City 4th Generation Honda City VX MT
+Honda City 4th Generation Honda City VX MT
+Honda City 2014-2015 Honda City i VTEC VX
+Hyundai i10 Hyundai i10 Era
+Maruti Swift 2004-2010 Maruti Swift VDI BSIV
+Maruti Swift Maruti Swift VXI
+Honda City 2014-2015 Honda City i VTEC E
+Honda City 2014-2015 Honda City i VTEC V
+Honda City 4th Generation Honda City V CVT
+Honda City 2015-2017 Honda City i VTEC V
+Maruti Swift Dzire 2015-2017 Maruti Swift Dzire VXI
+Honda City 2015-2017 Honda City i VTEC CVT VX
+Honda City 2015-2017 Honda City i VTEC VX Option
+Maruti Swift 2014-2021 Maruti Swift VXI Optional
+Honda City 2015-2017 Honda City i VTEC V
+Maruti Swift 2021-2024 Maruti Swift ZXI
+Honda City 2014-2015 Honda City i VTEC V
+Maruti Swift 2018 Maruti Swift AMT VXI
+Honda City 2008-2011 Honda City 1.5 V MT Exclusive
+Maruti Swift Maruti Swift VXI
+Maruti Swift 2021-2024 Maruti Swift ZXI
+Honda City 2015-2017 Honda City i VTEC V
+Honda City 2008-2011 Honda City 1.5 V MT Exclusive
+Maruti Swift Dzire 2015-2017 Maruti Swift Dzire VXI Optional
+Honda City 4th Generation Honda City SV MT
+Honda City 2008-2011 Honda City 1.5 S MT
+Hyundai i10 2007-2010 Hyundai i10 Sportz 1.2
+Maruti Swift Dzire Maruti Swift Dzire VXI BSVI
+Honda City 4th Generation Honda City i-VTEC CVT ZX
+Honda City 2014-2015 Honda City i VTEC CVT SV
+Maruti Swift 2021-2024 Maruti Swift VXI
+Maruti Swift 2010-2014 Maruti Swift ZXI
+Honda City 2011-2013 Honda City 1.5 S AT
+Hyundai i10 Hyundai i10 Era
+Honda City 2015-2017 Honda City i DTec V
+Hyundai i10 Hyundai i10 Magna 1.1L
+Hyundai i10 Hyundai i10 Magna
+Honda City 2015-2017 Honda City i VTEC V
+Maruti Swift Dzire 2015-2017 Maruti Swift Dzire VXI
+Honda City 4th Generation Honda City i-VTEC V
+Toyota Fortuner 2016-2021 Toyota Fortuner 2.8 4WD MT
+Hyundai i10 Hyundai i10 Magna 1.1L
+Mahindra XUV500 Mahindra XUV500 W10 2WD
+Honda City 2020-2023 Honda City ZX MT
+Maruti Swift Dzire 2015-2017 Maruti Swift Dzire VXI Optional
+Maruti Swift Maruti Swift ZXI Plus DT AMT BSVI
+Honda City 2014-2015 Honda City i DTEC V
+Maruti Swift Maruti Swift ZXI
+Hyundai i10 Hyundai i10 Magna
+Maruti Swift 2014-2021 Maruti Swift VXI
+Hyundai Santro Xing Hyundai Santro Xing GL Plus
+Mahindra XUV500 2011-2015 Mahindra XUV500 W8 2WD
+Maruti Swift 2014-2021 Maruti Swift LXI Option
+Honda City 2008-2011 Honda City 1.5 V MT Exclusive
+Toyota Fortuner 2016-2021 Toyota Fortuner TRD AT
+Honda City 2015-2017 Honda City i DTec V
+Hyundai Santro Xing Hyundai Santro Xing GLS
+Maruti Swift Maruti Swift ZXI AMT BSVI
+Honda City 2011-2013 Honda City 1.5 S AT
+Maruti Swift 2014-2021 Maruti Swift AMT VXI
+Maruti Swift Dzire Maruti Swift Dzire ZXI Plus BSVI
+Honda City 2015-2017 Honda City i VTEC SV
+Maruti Swift Dzire Maruti Swift Dzire VXI
+Honda City 2011-2013 Honda City 1.5 S AT
+Honda City 4th Generation Honda City Edge Edition SV
+Maruti Swift Dzire 2015-2017 Maruti Swift Dzire ZXI
+Honda City 2008-2011 Honda City 1.5 V MT Exclusive
+Honda City 2015-2017 Honda City i VTEC S
+Maruti Swift 2014-2021 Maruti Swift ZXI BSIV
+Honda City 2011-2013 Honda City 1.5 S AT
+Maruti Swift 2014-2021 Maruti Swift AMT VXI
+Honda City 2014-2015 Honda City i DTEC V
+Maruti Swift Maruti Swift VXI
+Honda City 2015-2017 Honda City i VTEC SV
+Maruti Swift Dzire Maruti Swift Dzire VXI AT
+Maruti Swift 2014-2021 Maruti Swift VXI
+Maruti Swift 2010-2014 Maruti Swift VXI
+Maruti Swift Dzire 2015-2017 Maruti Swift Dzire ZXI
+Honda City 2015-2017 Honda City i VTEC V
+Maruti Swift 2010-2014 Maruti Swift VDI
+Honda City 2014-2015 Honda City i VTEC S
+Maruti Swift Maruti Swift VXI
+Maruti Swift Dzire Maruti Swift Dzire VXI
+Maruti Swift 2014-2021 Maruti Swift DDiS VDI
+Maruti Swift Dzire 2015-2017 Maruti Swift Dzire ZXI
+Maruti Swift Maruti Swift VXI
+Honda City 2008-2011 Honda City 1.5 V MT Exclusive
+Maruti Swift 2014-2021 Maruti Swift AMT VXI
+Maruti Swift 2010-2014 Maruti Swift LXI
+Honda City 2014-2015 Honda City i DTEC V
+Hyundai Santro Xing Hyundai Santro Xing GLS
+Maruti Swift Dzire Maruti Swift Dzire ZXI Plus AT BSVI
+Hyundai Santro Xing Hyundai Santro Xing GL
+Toyota Fortuner 2016-2021 Toyota Fortuner 2.8 4WD AT
+Hyundai Santro Xing Hyundai Santro Xing XL
+Maruti Swift 2014-2021 Maruti Swift VDI BSIV
+Maruti Swift Dzire 2011-2014 Maruti Swift Dzire ZXI
+Honda City 2015-2017 Honda City i VTEC VX
+Honda City 4th Generation Honda City SV MT
+Honda City 4th Generation Honda City SV MT
+Hyundai i10 2007-2010 Hyundai i10 Magna 1.1
+Hyundai i10 Hyundai i10 Sportz
+Maruti Swift Dzire 2015-2017 Maruti Swift Dzire VXI
+Honda City 2015-2017 Honda City i VTEC CVT SV
+Honda City 2014-2015 Honda City i VTEC CVT SV
+Maruti Swift 2010-2014 Maruti Swift ZXI
+Honda City 4th Generation Honda City i-VTEC CVT ZX
+Hyundai i10 Hyundai i10 Sportz
+Toyota Fortuner 2016-2021 Toyota Fortuner 2.8 2WD MT
+Maruti Swift Dzire 2008-2012 Maruti Swift Dzire VXi
+Maruti Swift 2010-2014 Maruti Swift VDI
+Hyundai i10 Hyundai i10 Magna 1.1L
+Maruti Swift Dzire 2008-2012 Maruti Swift Dzire ZXi
+Maruti Swift 2010-2014 Maruti Swift VXI
+Mahindra XUV500 Mahindra XUV500 W7
+Honda City 4th Generation Honda City i-VTEC CVT ZX
+Honda City 2015-2017 Honda City i VTEC CVT SV
+Mahindra XUV500 2011-2015 Mahindra XUV500 W8 2WD
+Honda City 4th Generation Honda City SV MT
+Honda City 4th Generation Honda City i-VTEC CVT ZX
+Honda City 2020-2023 Honda City VX MT
+Maruti Swift 2014-2021 Maruti Swift AMT VVT VXI
+Maruti Swift Dzire 2015-2017 Maruti Swift Dzire VXI
+Honda City 2011-2013 Honda City S
+Honda City 4th Generation Honda City ZX MT
+Maruti Swift Dzire 2011-2014 Maruti Swift Dzire VXI
+Hyundai i10 Hyundai i10 Magna 1.1L
+Maruti Swift Dzire 2015-2017 Maruti Swift Dzire VXi AT
+Honda City 2014-2015 Honda City i VTEC CVT VX
+Maruti Swift 2014-2021 Maruti Swift VVT VXI
+Maruti Swift Dzire Maruti Swift Dzire VXI BSVI
+Maruti Swift 2010-2014 Maruti Swift ZDi
+Maruti Swift Dzire Tour 2012-2018 Maruti Swift Dzire LXI
+Toyota Innova 2012-2013 Toyota Innova 2.5 G (Diesel) 8 Seater
+Honda City 2014-2015 Honda City i VTEC CVT SV
+Maruti Swift Dzire 2015-2017 Maruti Swift Dzire ZDI
+Mahindra XUV500 2011-2015 Mahindra XUV500 W6 2WD
+Honda City 4th Generation Honda City V CVT
+Hyundai i10 Hyundai i10 Magna
+Maruti Swift Dzire Maruti Swift Dzire ZXI AT BSVI
+Hyundai i10 Hyundai i10 Magna
+Hyundai i10 Hyundai i10 Magna
+Toyota Fortuner Toyota Fortuner 4X4 Diesel
+Honda City 4th Generation Honda City VX MT
+Hyundai Santro Xing Hyundai Santro Xing XO eRLX Euro II
+Hyundai i10 Hyundai i10 Magna
+Hyundai i10 Hyundai i10 Era
+Hyundai i10 2007-2010 Hyundai i10 Era 1.1
+Hyundai i10 Hyundai i10 Sportz
+Maruti Swift 2014-2021 Maruti Swift ZXI Plus
+Maruti Swift Dzire 2008-2012 Maruti Swift Dzire VDi
+Hyundai Santro Xing Hyundai Santro Xing XL
+Maruti Swift 2014-2021 Maruti Swift AMT VXI
+Maruti Swift 2004-2010 Maruti Swift 1.3 VXI ABS
+Honda City 2014-2015 Honda City i VTEC VX Option
+Maruti Swift Dzire 2015-2017 Maruti Swift Dzire VDI
+Maruti Swift 2004-2010 Maruti Swift VDI BSIV
+Maruti Swift 2004-2010 Maruti Swift VDI BSIV
+Maruti Swift 2004-2010 Maruti Swift 1.3 VXi
+Honda City 2015-2017 Honda City i VTEC V
+Honda City 2008-2011 Honda City 1.5 V MT
+Maruti Swift 2004-2010 Maruti Swift 1.3 VXI ABS
+Hyundai i10 Hyundai i10 Magna 1.2 iTech SE
+Maruti Swift Dzire 2011-2014 Maruti Swift Dzire LDI
+Hyundai i10 2007-2010 Hyundai i10 Magna 1.2
+Maruti Swift 2014-2021 Maruti Swift ZXI
+Honda City 2008-2011 Honda City 1.5 V AT
+Mahindra XUV500 Mahindra XUV500 W6 2WD
+Honda City 2015-2017 Honda City i VTEC VX
+Honda City 2008-2011 Honda City 1.5 S MT
+Toyota Innova 2004-2011 Toyota Innova 2.5 V Diesel 8-seater
+Hyundai Santro Xing Hyundai Santro Xing GLS
+Maruti Swift 2014-2021 Maruti Swift LXI
+Honda City 2015-2017 Honda City i VTEC VX
+Maruti Swift Dzire 2011-2014 Maruti Swift Dzire VDI
+Maruti Swift Dzire Maruti Swift Dzire VXI BSVI
+Honda City 2015-2017 Honda City i VTEC VX
+Mahindra XUV500 Mahindra XUV500 AT W10 AWD
+Hyundai i10 Hyundai i10 Sportz AT
+Hyundai i10 Hyundai i10 Asta Sunroof AT
+Hyundai Santro Xing Hyundai Santro Xing GL Plus
+Hyundai i10 Hyundai i10 Magna
+Hyundai i10 Hyundai i10 Era
+Honda City 2008-2011 Honda City 1.5 E MT
+Maruti Swift 2014-2021 Maruti Swift ZXI BSIV
+Hyundai i10 Hyundai i10 Magna 1.2 iTech SE
+Hyundai i10 2007-2010 Hyundai i10 Sportz 1.2 AT
+Maruti Swift 2014-2021 Maruti Swift ZXI
+Maruti Swift 2014-2021 Maruti Swift ZXI BSIV
+Mahindra XUV500 Mahindra XUV500 W8 1.99 mHawk
+Maruti Swift 2014-2021 Maruti Swift VXI
+Toyota Innova Toyota Innova 2.5 G (Diesel) 8 Seater
+Hyundai Santro Xing Hyundai Santro Xing XO
+Honda City 2008-2011 Honda City 1.5 S AT
+  Then the user should extract all the popular models in a List  # stepDefinitions.UsedCars.the_user_should_extract_all_the_popular_models_in_a_list()
+
+    Embedding ViewpopularusedcarmodelsinChennai_Success [image/png 160041 bytes]
+
+[Maruti Swift 2014-2021 Maruti Swift VXI Optional, Honda City 4th Generation Honda City SV MT, Maruti Swift Dzire Maruti Swift Dzire VXI, Honda City 2015-2017 Honda City i VTEC V, Honda City 2014-2015 Honda City i DTEC VX, Maruti Swift 2014-2021 Maruti Swift VXI Optional, Maruti Swift Maruti Swift ZXI, Toyota Innova 2004-2011 Toyota Innova 2.5 G (Diesel) 8 Seater BS III, Maruti Swift Maruti Swift ZXI, Toyota Innova Toyota Innova 2.5 G (Diesel) 7 Seater, Toyota Innova 2004-2011 Toyota Innova 2.5 G (Diesel) 7 Seater BS III, Maruti Swift Maruti Swift ZXI Plus, Maruti Swift Maruti Swift ZXI, Honda City 4th Generation Honda City V MT, Maruti Swift 2014-2021 Maruti Swift ZXI BSIV, Maruti Swift Dzire Maruti Swift Dzire VXI, Maruti Swift 2018 Maruti Swift VXI, Honda City 4th Generation Honda City V CVT, Honda City 2008-2011 Honda City 1.5 V MT Exclusive, Honda City 2014-2015 Honda City i VTEC CVT SV, Maruti Swift Maruti Swift ZXI AMT, Maruti Swift Maruti Swift VXI, Honda City 2011-2013 Honda City 1.5 S AT, Maruti Swift 2010-2014 Maruti Swift ZDi, Honda City 4th Generation Honda City i-VTEC S, Honda City 2015-2017 Honda City i VTEC V, Honda City 2011-2013 Honda City S, Maruti Swift Dzire 2015-2017 Maruti Swift Dzire AMT ZDI, Maruti Swift Maruti Swift VXI, Honda City 2015-2017 Honda City i VTEC CVT VX, Honda City 2015-2017 Honda City i VTEC VX, Honda City 2015-2017 Honda City i VTEC CVT VX, Honda City 2014-2015 Honda City i VTEC V, Honda City 2015-2017 Honda City i VTEC V, Maruti Swift Dzire Maruti Swift Dzire VXI, Maruti Swift Maruti Swift VXI, Honda City 4th Generation Honda City VX MT, Honda City 4th Generation Honda City VX MT, Honda City 2014-2015 Honda City i VTEC VX, Hyundai i10 Hyundai i10 Era, Maruti Swift 2004-2010 Maruti Swift VDI BSIV, Maruti Swift Maruti Swift VXI, Honda City 2014-2015 Honda City i VTEC E, Honda City 2014-2015 Honda City i VTEC V, Honda City 4th Generation Honda City V CVT, Honda City 2015-2017 Honda City i VTEC V, Maruti Swift Dzire 2015-2017 Maruti Swift Dzire VXI, Honda City 2015-2017 Honda City i VTEC CVT VX, Honda City 2015-2017 Honda City i VTEC VX Option, Maruti Swift 2014-2021 Maruti Swift VXI Optional, Honda City 2015-2017 Honda City i VTEC V, Maruti Swift 2021-2024 Maruti Swift ZXI, Honda City 2014-2015 Honda City i VTEC V, Maruti Swift 2018 Maruti Swift AMT VXI, Honda City 2008-2011 Honda City 1.5 V MT Exclusive, Maruti Swift Maruti Swift VXI, Maruti Swift 2021-2024 Maruti Swift ZXI, Honda City 2015-2017 Honda City i VTEC V, Honda City 2008-2011 Honda City 1.5 V MT Exclusive, Maruti Swift Dzire 2015-2017 Maruti Swift Dzire VXI Optional, Honda City 4th Generation Honda City SV MT, Honda City 2008-2011 Honda City 1.5 S MT, Hyundai i10 2007-2010 Hyundai i10 Sportz 1.2, Maruti Swift Dzire Maruti Swift Dzire VXI BSVI, Honda City 4th Generation Honda City i-VTEC CVT ZX, Honda City 2014-2015 Honda City i VTEC CVT SV, Maruti Swift 2021-2024 Maruti Swift VXI, Maruti Swift 2010-2014 Maruti Swift ZXI, Honda City 2011-2013 Honda City 1.5 S AT, Hyundai i10 Hyundai i10 Era, Honda City 2015-2017 Honda City i DTec V, Hyundai i10 Hyundai i10 Magna 1.1L, Hyundai i10 Hyundai i10 Magna, Honda City 2015-2017 Honda City i VTEC V, Maruti Swift Dzire 2015-2017 Maruti Swift Dzire VXI, Honda City 4th Generation Honda City i-VTEC V, Toyota Fortuner 2016-2021 Toyota Fortuner 2.8 4WD MT, Hyundai i10 Hyundai i10 Magna 1.1L, Mahindra XUV500 Mahindra XUV500 W10 2WD, Honda City 2020-2023 Honda City ZX MT, Maruti Swift Dzire 2015-2017 Maruti Swift Dzire VXI Optional, Maruti Swift Maruti Swift ZXI Plus DT AMT BSVI, Honda City 2014-2015 Honda City i DTEC V, Maruti Swift Maruti Swift ZXI, Hyundai i10 Hyundai i10 Magna, Maruti Swift 2014-2021 Maruti Swift VXI, Hyundai Santro Xing Hyundai Santro Xing GL Plus, Mahindra XUV500 2011-2015 Mahindra XUV500 W8 2WD, Maruti Swift 2014-2021 Maruti Swift LXI Option, Honda City 2008-2011 Honda City 1.5 V MT Exclusive, Toyota Fortuner 2016-2021 Toyota Fortuner TRD AT, Honda City 2015-2017 Honda City i DTec V, Hyundai Santro Xing Hyundai Santro Xing GLS, Maruti Swift Maruti Swift ZXI AMT BSVI, Honda City 2011-2013 Honda City 1.5 S AT, Maruti Swift 2014-2021 Maruti Swift AMT VXI, Maruti Swift Dzire Maruti Swift Dzire ZXI Plus BSVI, Honda City 2015-2017 Honda City i VTEC SV, Maruti Swift Dzire Maruti Swift Dzire VXI, Honda City 2011-2013 Honda City 1.5 S AT, Honda City 4th Generation Honda City Edge Edition SV, Maruti Swift Dzire 2015-2017 Maruti Swift Dzire ZXI, Honda City 2008-2011 Honda City 1.5 V MT Exclusive, Honda City 2015-2017 Honda City i VTEC S, Maruti Swift 2014-2021 Maruti Swift ZXI BSIV, Honda City 2011-2013 Honda City 1.5 S AT, Maruti Swift 2014-2021 Maruti Swift AMT VXI, Honda City 2014-2015 Honda City i DTEC V, Maruti Swift Maruti Swift VXI, Honda City 2015-2017 Honda City i VTEC SV, Maruti Swift Dzire Maruti Swift Dzire VXI AT, Maruti Swift 2014-2021 Maruti Swift VXI, Maruti Swift 2010-2014 Maruti Swift VXI, Maruti Swift Dzire 2015-2017 Maruti Swift Dzire ZXI, Honda City 2015-2017 Honda City i VTEC V, Maruti Swift 2010-2014 Maruti Swift VDI, Honda City 2014-2015 Honda City i VTEC S, Maruti Swift Maruti Swift VXI, Maruti Swift Dzire Maruti Swift Dzire VXI, Maruti Swift 2014-2021 Maruti Swift DDiS VDI, Maruti Swift Dzire 2015-2017 Maruti Swift Dzire ZXI, Maruti Swift Maruti Swift VXI, Honda City 2008-2011 Honda City 1.5 V MT Exclusive, Maruti Swift 2014-2021 Maruti Swift AMT VXI, Maruti Swift 2010-2014 Maruti Swift LXI, Honda City 2014-2015 Honda City i DTEC V, Hyundai Santro Xing Hyundai Santro Xing GLS, Maruti Swift Dzire Maruti Swift Dzire ZXI Plus AT BSVI, Hyundai Santro Xing Hyundai Santro Xing GL, Toyota Fortuner 2016-2021 Toyota Fortuner 2.8 4WD AT, Hyundai Santro Xing Hyundai Santro Xing XL, Maruti Swift 2014-2021 Maruti Swift VDI BSIV, Maruti Swift Dzire 2011-2014 Maruti Swift Dzire ZXI, Honda City 2015-2017 Honda City i VTEC VX, Honda City 4th Generation Honda City SV MT, Honda City 4th Generation Honda City SV MT, Hyundai i10 2007-2010 Hyundai i10 Magna 1.1, Hyundai i10 Hyundai i10 Sportz, Maruti Swift Dzire 2015-2017 Maruti Swift Dzire VXI, Honda City 2015-2017 Honda City i VTEC CVT SV, Honda City 2014-2015 Honda City i VTEC CVT SV, Maruti Swift 2010-2014 Maruti Swift ZXI, Honda City 4th Generation Honda City i-VTEC CVT ZX, Hyundai i10 Hyundai i10 Sportz, Toyota Fortuner 2016-2021 Toyota Fortuner 2.8 2WD MT, Maruti Swift Dzire 2008-2012 Maruti Swift Dzire VXi, Maruti Swift 2010-2014 Maruti Swift VDI, Hyundai i10 Hyundai i10 Magna 1.1L, Maruti Swift Dzire 2008-2012 Maruti Swift Dzire ZXi, Maruti Swift 2010-2014 Maruti Swift VXI, Mahindra XUV500 Mahindra XUV500 W7, Honda City 4th Generation Honda City i-VTEC CVT ZX, Honda City 2015-2017 Honda City i VTEC CVT SV, Mahindra XUV500 2011-2015 Mahindra XUV500 W8 2WD, Honda City 4th Generation Honda City SV MT, Honda City 4th Generation Honda City i-VTEC CVT ZX, Honda City 2020-2023 Honda City VX MT, Maruti Swift 2014-2021 Maruti Swift AMT VVT VXI, Maruti Swift Dzire 2015-2017 Maruti Swift Dzire VXI, Honda City 2011-2013 Honda City S, Honda City 4th Generation Honda City ZX MT, Maruti Swift Dzire 2011-2014 Maruti Swift Dzire VXI, Hyundai i10 Hyundai i10 Magna 1.1L, Maruti Swift Dzire 2015-2017 Maruti Swift Dzire VXi AT, Honda City 2014-2015 Honda City i VTEC CVT VX, Maruti Swift 2014-2021 Maruti Swift VVT VXI, Maruti Swift Dzire Maruti Swift Dzire VXI BSVI, Maruti Swift 2010-2014 Maruti Swift ZDi, Maruti Swift Dzire Tour 2012-2018 Maruti Swift Dzire LXI, Toyota Innova 2012-2013 Toyota Innova 2.5 G (Diesel) 8 Seater, Honda City 2014-2015 Honda City i VTEC CVT SV, Maruti Swift Dzire 2015-2017 Maruti Swift Dzire ZDI, Mahindra XUV500 2011-2015 Mahindra XUV500 W6 2WD, Honda City 4th Generation Honda City V CVT, Hyundai i10 Hyundai i10 Magna, Maruti Swift Dzire Maruti Swift Dzire ZXI AT BSVI, Hyundai i10 Hyundai i10 Magna, Hyundai i10 Hyundai i10 Magna, Toyota Fortuner Toyota Fortuner 4X4 Diesel, Honda City 4th Generation Honda City VX MT, Hyundai Santro Xing Hyundai Santro Xing XO eRLX Euro II, Hyundai i10 Hyundai i10 Magna, Hyundai i10 Hyundai i10 Era, Hyundai i10 2007-2010 Hyundai i10 Era 1.1, Hyundai i10 Hyundai i10 Sportz, Maruti Swift 2014-2021 Maruti Swift ZXI Plus, Maruti Swift Dzire 2008-2012 Maruti Swift Dzire VDi, Hyundai Santro Xing Hyundai Santro Xing XL, Maruti Swift 2014-2021 Maruti Swift AMT VXI, Maruti Swift 2004-2010 Maruti Swift 1.3 VXI ABS, Honda City 2014-2015 Honda City i VTEC VX Option, Maruti Swift Dzire 2015-2017 Maruti Swift Dzire VDI, Maruti Swift 2004-2010 Maruti Swift VDI BSIV, Maruti Swift 2004-2010 Maruti Swift VDI BSIV, Maruti Swift 2004-2010 Maruti Swift 1.3 VXi, Honda City 2015-2017 Honda City i VTEC V, Honda City 2008-2011 Honda City 1.5 V MT, Maruti Swift 2004-2010 Maruti Swift 1.3 VXI ABS, Hyundai i10 Hyundai i10 Magna 1.2 iTech SE, Maruti Swift Dzire 2011-2014 Maruti Swift Dzire LDI, Hyundai i10 2007-2010 Hyundai i10 Magna 1.2, Maruti Swift 2014-2021 Maruti Swift ZXI, Honda City 2008-2011 Honda City 1.5 V AT, Mahindra XUV500 Mahindra XUV500 W6 2WD, Honda City 2015-2017 Honda City i VTEC VX, Honda City 2008-2011 Honda City 1.5 S MT, Toyota Innova 2004-2011 Toyota Innova 2.5 V Diesel 8-seater, Hyundai Santro Xing Hyundai Santro Xing GLS, Maruti Swift 2014-2021 Maruti Swift LXI, Honda City 2015-2017 Honda City i VTEC VX, Maruti Swift Dzire 2011-2014 Maruti Swift Dzire VDI, Maruti Swift Dzire Maruti Swift Dzire VXI BSVI, Honda City 2015-2017 Honda City i VTEC VX, Mahindra XUV500 Mahindra XUV500 AT W10 AWD, Hyundai i10 Hyundai i10 Sportz AT, Hyundai i10 Hyundai i10 Asta Sunroof AT, Hyundai Santro Xing Hyundai Santro Xing GL Plus, Hyundai i10 Hyundai i10 Magna, Hyundai i10 Hyundai i10 Era, Honda City 2008-2011 Honda City 1.5 E MT, Maruti Swift 2014-2021 Maruti Swift ZXI BSIV, Hyundai i10 Hyundai i10 Magna 1.2 iTech SE, Hyundai i10 2007-2010 Hyundai i10 Sportz 1.2 AT, Maruti Swift 2014-2021 Maruti Swift ZXI, Maruti Swift 2014-2021 Maruti Swift ZXI BSIV, Mahindra XUV500 Mahindra XUV500 W8 1.99 mHawk, Maruti Swift 2014-2021 Maruti Swift VXI, Toyota Innova Toyota Innova 2.5 G (Diesel) 8 Seater, Hyundai Santro Xing Hyundai Santro Xing XO, Honda City 2008-2011 Honda City 1.5 S AT]
+  And the user displays the same in the console                  # stepDefinitions.UsedCars.the_user_displays_the_same_in_the_console()
+
+    Embedding ViewpopularusedcarmodelsinChennai_Success [image/png 160041 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[May 11, 2024 6:12:23 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 124
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with invalid Google account details&quot;, &quot;Google Login&quot;](3)" classname="testRunner.TestRunner" time="15.67">
+    <system-out><![CDATA[
+@regression
+Scenario: Login with invalid Google account details                           # Features/ZigWheelsLogin.feature:4
+  Given the user has the car sales website open in their browser              # stepDefinitions.UsedCars.the_user_has_the_car_sales_website_open_in_their_browser()
+
+    Embedding LoginwithinvalidGoogleaccountdetails_Success [image/png 604017 bytes]
+
+  When the user clicks on the login icon                                      # stepDefinitions.LoginSteps.the_user_clicks_on_the_login_icon()
+
+    Embedding LoginwithinvalidGoogleaccountdetails_Success [image/png 315349 bytes]
+
+  And the user clicks on the Google button                                    # stepDefinitions.LoginSteps.the_user_clicks_on_the_google_button()
+
+    Embedding LoginwithinvalidGoogleaccountdetails_Success [image/png 294681 bytes]
+
+  And the user switches to the new window                                     # stepDefinitions.LoginSteps.the_user_switches_to_the_new_window()
+
+    Embedding LoginwithinvalidGoogleaccountdetails_Success [image/png 61689 bytes]
+
+LPUqv@gmail.com
+Couldn’t find your Google Account
+OWlla@xyz
+Enter a valid email or phone number
+
+Enter an email or phone number
+  And the user enters the emailId and clicks on the Next button               # stepDefinitions.LoginSteps.the_user_enters_the_email_id_and_clicks_on_the_next_button()
+
+    Embedding LoginwithinvalidGoogleaccountdetails_Success [image/png 62640 bytes]
+
+[Couldn’t find your Google Account, Enter a valid email or phone number, Enter an email or phone number]
+  Then the system should display an error message and print it in the console # stepDefinitions.LoginSteps.the_system_should_display_an_error_message_and_print_it_in_the_console()
+
+    Embedding LoginwithinvalidGoogleaccountdetails_Success [image/png 62663 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[May 11, 2024 6:12:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 124
+]]></system-err>
+  </testcase>
+</testsuite>
